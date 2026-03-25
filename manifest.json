@@ -1,7 +1,7 @@
 {
-  "name": "Tabla Horas",
-  "organization": "Mi Empresa",
-  "description": "Tabla horas por unidad de negocio",
+  "name": "Tabla Horas por Unidad de Negocio",
+  "organization": "Ramiro Marinucci",
+  "description": "Tabla minimalista con barras de participación porcentual",
   "logoUrl": "",
   "organizationUrl": "",
   "supportUrl": "",
@@ -12,12 +12,11 @@
     {
       "id": "tabla-horas",
       "name": "Tabla Horas",
-      "description": "Tabla horas por unidad de negocio",
+      "description": "Visualización de horas y participación",
       "iconUrl": "",
       "resource": {
         "js": "https://ramirom1245.github.io/looker-viz/viz.js",
-        "config": "https://ramirom1245.github.io/looker-viz/viz.json",
-        "css": ""
+        "config": "https://ramirom1245.github.io/looker-viz/viz.json"
       }
     }
   ]
