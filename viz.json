@@ -8,19 +8,13 @@
           "id": "dimension",
           "label": "Unidad de negocio",
           "type": "DIMENSION",
-          "options": {
-            "min": 1,
-            "max": 1
-          }
+          "options": { "min": 1, "max": 1 }
         },
         {
           "id": "metric",
           "label": "Horas",
           "type": "METRIC",
-          "options": {
-            "min": 1,
-            "max": 1
-          }
+          "options": { "min": 1, "max": 1 }
         }
       ]
     }
@@ -44,6 +38,5 @@
         }
       ]
     }
-  ],
-  "interactions": []
+  ]
 }
