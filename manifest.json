@@ -1,7 +1,7 @@
 {
   "name": "Tabla Horas",
   "organization": "Mi Empresa",
-  "description": "Tabla con horas y participacion por unidad de negocio",
+  "description": "Tabla horas por unidad de negocio",
   "logoUrl": "",
   "organizationUrl": "",
   "supportUrl": "",
@@ -12,7 +12,7 @@
     {
       "id": "tabla-horas",
       "name": "Tabla Horas",
-      "description": "Tabla con horas y participacion por unidad de negocio",
+      "description": "Tabla horas por unidad de negocio",
       "iconUrl": "",
       "resource": {
         "js": "https://ramirom1245.github.io/looker-viz/viz.js",
