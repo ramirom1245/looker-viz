@@ -1,22 +1,23 @@
 {
-  "name": "Tabla Horas por Unidad de Negocio",
+  "name": "Tabla Horas",
   "organization": "Mi Empresa",
-  "description": "Tabla minimalista con barras de participación porcentual por unidad de negocio",
+  "description": "Tabla con horas y participacion por unidad de negocio",
   "logoUrl": "",
   "organizationUrl": "",
   "supportUrl": "",
-  "packageUrl": "",
+  "packageUrl": "https://ramirom1245.github.io/looker-viz/",
   "privacyPolicyUrl": "",
   "termsOfServiceUrl": "",
   "components": [
     {
       "id": "tabla-horas",
       "name": "Tabla Horas",
-      "description": "Tabla con horas y % de participación por unidad de negocio",
+      "description": "Tabla con horas y participacion por unidad de negocio",
       "iconUrl": "",
       "resource": {
-        "js": "viz.js",
-        "config": "viz.json"
+        "js": "https://ramirom1245.github.io/looker-viz/viz.js",
+        "config": "https://ramirom1245.github.io/looker-viz/viz.json",
+        "css": ""
       }
     }
   ]
