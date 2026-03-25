@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Datos",
+      "elements": [
+        {
+          "id": "dimension",
+          "label": "Unidad de negocio",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Horas",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "color_opts",
+      "label": "Color de barras",
+      "elements": [
+        {
+          "id": "barColor",
+          "label": "Color principal",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "blue",
+          "options": [
+            { "label": "Azul", "value": "blue" },
+            { "label": "Verde", "value": "green" },
+            { "label": "Violeta", "value": "purple" },
+            { "label": "Coral", "value": "coral" }
+          ]
+        }
+      ]
+    }
+  ],
+  "interactions": []
+}
