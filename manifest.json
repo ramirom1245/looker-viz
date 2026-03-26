@@ -1,22 +1,16 @@
 {
-  "name": "Tabla Horas por Unidad de Negocio",
+  "name": "Ejemplo Tabla Horas",
   "organization": "Ramiro Marinucci",
-  "description": "Tabla minimalista con barras de participación porcentual",
-  "logoUrl": "https://raw.githubusercontent.com/ramirom1245/looker-viz/main/icon.png",
-  "organizationUrl": "https://github.com/ramirom1245/looker-viz",
-  "supportUrl": "https://github.com/ramirom1245/looker-viz/issues",
-  "packageUrl": "https://ramirom1245.github.io/looker-viz/",
-  "privacyPolicyUrl": "https://github.com/ramirom1245/looker-viz",
-  "termsOfServiceUrl": "https://github.com/ramirom1245/looker-viz",
+  "description": "Prueba de visualización comunitaria",
+  "packageUrl": "https://github.com/ramirom1245/looker-viz",
   "components": [
     {
-      "id": "tabla-horas",
-      "name": "Tabla Horas",
-      "description": "Visualización de horas y participación",
-      "iconUrl": "https://raw.githubusercontent.com/ramirom1245/looker-viz/main/icon.png",
+      "id": "tabla-test",
+      "name": "Mi Tabla Custom",
+      "description": "Tabla con barras de participación",
       "resource": {
-        "js": "https://ramirom1245.github.io/looker-viz/viz.js",
-        "config": "https://ramirom1245.github.io/looker-viz/viz.json"
+        "js": "https://cdn.jsdelivr.net/gh/ramirom1245/looker-viz@main/viz.js",
+        "config": "https://cdn.jsdelivr.net/gh/ramirom1245/looker-viz@main/viz.json"
       }
     }
   ]
