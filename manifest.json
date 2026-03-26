@@ -1,13 +1,12 @@
 {
-  "name": "Ejemplo Tabla Horas",
-  "organization": "Ramiro Marinucci",
-  "description": "Prueba de visualización comunitaria",
-  "packageUrl": "https://github.com/ramirom1245/looker-viz",
+  "name": "Tabla Horas Simple",
+  "organization": "Ramiro",
+  "description": "Visualizacion de prueba",
   "components": [
     {
-      "id": "tabla-test",
-      "name": "Mi Tabla Custom",
-      "description": "Tabla con barras de participación",
+      "id": "tabla-horas",
+      "name": "Tabla Horas",
+      "description": "Tabla de horas",
       "resource": {
         "js": "https://cdn.jsdelivr.net/gh/ramirom1245/looker-viz@main/viz.js",
         "config": "https://cdn.jsdelivr.net/gh/ramirom1245/looker-viz@main/viz.json"
